@@ -1,0 +1,179 @@
+<svg fill="none" viewBox="0 0 1200 420" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="chartBarGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Pulsing Keyframe Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes barPulse {
+        0%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.92); }
+      }
+      @keyframes beaconRing {
+        0% { r: 4px; opacity: 1; }
+        100% { r: 16px; opacity: 0; }
+      }
+
+      .floating-orb {
+        transform-origin: center;
+        animation: pulseGlow 8s ease-in-out infinite;
+      }
+      .data-stream {
+        stroke-dasharray: 6 6;
+        animation: dashAnim 2s linear infinite;
+      }
+      .capacity-bar {
+        transform-origin: bottom;
+        animation: barPulse 5s ease-in-out infinite;
+      }
+      .ring-anim {
+        animation: beaconRing 2.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+
+  <!-- Dynamic Ambient Glowing Orbs in Background -->
+  <circle class="floating-orb" cx="150" cy="90" r="140" fill="url(#glowGrad1)"/>
+  <circle class="floating-orb" cx="1060" cy="300" r="160" fill="url(#glowGrad2)" style="animation-delay: -3s;"/>
+  <circle class="floating-orb" cx="620" cy="210" r="190" fill="url(#glowGrad1)" style="animation-delay: -5s; opacity: 0.2;"/>
+
+  <!-- Dynamic Capacity Analytics Wave & Grid Lines (Lower Background) -->
+  <g opacity="0.35">
+    <path d="M 0 340 Q 300 280 600 330 T 1200 300 L 1200 420 L 0 420 Z" fill="#1e293b" fill-opacity="0.4"/>
+    <path class="data-stream" d="M 50 350 Q 320 270 650 330 T 1150 280" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="data-stream" d="M 50 370 Q 350 300 700 360 T 1150 310" fill="none" stroke="#818cf8" stroke-width="1.5" style="animation-duration: 3s;"/>
+  </g>
+
+  <!-- Decorative Capacity Growth Bars (Right Side Visual) -->
+  <g transform="translate(860, 160)" opacity="0.85">
+    <rect class="capacity-bar" x="0" y="70" width="22" height="110" rx="4" fill="url(#chartBarGrad)"/>
+    <rect class="capacity-bar" x="32" y="50" width="22" height="130" rx="4" fill="url(#chartBarGrad)" style="animation-delay: -1s;"/>
+    <rect class="capacity-bar" x="64" y="80" width="22" height="100" rx="4" fill="url(#chartBarGrad)" style="animation-delay: -2s;"/>
+    <rect class="capacity-bar" x="96" y="30" width="22" height="150" rx="4" fill="url(#chartBarGrad)" style="animation-delay: -3s;"/>
+    <rect class="capacity-bar" x="128" y="10" width="22" height="170" rx="4" fill="url(#chartBarGrad)" style="animation-delay: -4s;"/>
+    <rect class="capacity-bar" x="160" y="-15" width="22" height="195" rx="4" fill="url(#accentGrad)" style="animation-delay: -2.5s;"/>
+
+    <!-- Dynamic Trend Line across bars -->
+    <path d="M 11 65 L 43 45 L 75 75 L 107 25 L 139 5 L 171 -20" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Animated Beacon at Peak -->
+    <circle cx="171" cy="-20" r="4" fill="#38bdf8"/>
+    <circle class="ring-anim" cx="171" cy="-20" r="6" stroke="#38bdf8" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- High-Tech Card Border for Title Header Area -->
+  <rect x="60" y="45" width="1080" height="330" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" stroke-opacity="0.8"/>
+
+  <!-- Top Status Badge / Pill -->
+  <g transform="translate(95, 75)">
+    <rect x="0" y="0" width="260" height="28" rx="14" fill="#0369a1" fill-opacity="0.25" stroke="#0284c7" stroke-width="1"/>
+    <circle cx="14" cy="14" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text class="tag-text" x="28" y="18" fill="#38bdf8" font-size="12">ENTERPRISE OBSERVABILITY &amp; BI</text>
+  </g>
+
+  <!-- FOREGROUND PRIMARY HEADLINE (Protected from overlap) -->
+  <text class="title-text" x="95" y="160" fill="url(#accentGrad)" font-size="46">
+    Awesome Backup Analytics
+  </text>
+  <text class="title-text" x="95" y="215" fill="#f8fafc" font-size="38">
+    &amp; Capacity Reporting
+  </text>
+
+  <!-- SUBTITLE DESCRIPTION -->
+  <text class="sub-text" x="95" y="260" fill="#94a3b8" font-size="16">
+    Curated ecosystem of SaaS platforms &amp; open-source exporters for storage capacity forecasting,
+  </text>
+  <text class="sub-text" x="95" y="284" fill="#94a3b8" font-size="16">
+    backup health observability, SLA / RPO validation, and audit compliance reporting.
+  </text>
+
+  <!-- FEATURE TAG PILLS -->
+  <g transform="translate(95, 320)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="135" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text class="tag-text" x="14" y="17" fill="#cbd5e1" font-size="11">💾 Storage Metrics</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(145, 0)">
+      <rect x="0" y="0" width="150" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text class="tag-text" x="14" y="17" fill="#cbd5e1" font-size="11">📈 Capacity Planning</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(305, 0)">
+      <rect x="0" y="0" width="145" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text class="tag-text" x="14" y="17" fill="#cbd5e1" font-size="11">🛡️ SLA &amp; RPO Audits</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(460, 0)">
+      <rect x="0" y="0" width="165" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text class="tag-text" x="14" y="17" fill="#cbd5e1" font-size="11">📊 Prometheus &amp; Grafana</text>
+    </g>
+  </g>
+</svg>

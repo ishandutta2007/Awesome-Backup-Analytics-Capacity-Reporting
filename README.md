@@ -1,36 +1,61 @@
-# Awesome-Backup-Analytics-Capacity-Reporting
-# Awesome-Backup-Analytics-Capacity-Reporting
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Backup Analytics &amp; Capacity Reporting Banner" width="100%">
+</p>
 
-## Top Backup Analytics & Capacity Reporting Ecosystem
+# 🛡️ Awesome Backup Analytics & Capacity Reporting
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Backup Infrastructure Monitoring, Storage Capacity Forecasting & Compliance Reporting*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Backup Analytics & Capacity Reporting**. These tools help IT and backup administrators monitor backup job health, analyze storage consumption trends, forecast capacity needs, validate SLA/RPO compliance, and generate audit-ready reports across hybrid and multi-cloud environments.
+---
 
-**Examples** include Druva Analytics and Reporting, Veeam ONE, Commvault Report Manager, Cohesity Analytics, Rubrik Security Cloud Reports, Datadog Infrastructure Analytics, Splunk Dashboards, Tableau Cloud, Microsoft Power BI, and Looker (the category leaders).
+## 📑 Top Backup Analytics & Capacity Reporting Ecosystem
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted backup reporting, Prometheus/Grafana-based monitoring, and lightweight analytics exporters—ideal for backup administrators, SREs, platform teams, and developers building transparent, vendor-neutral backup observability stacks.
+> **Curated List of Enterprise SaaS Platforms & Open-Source Exporters, Web UIs & Dashboards**  
+> *Focused on Backup Infrastructure Monitoring, Storage Capacity Forecasting, SLA Verification & Compliance Reporting*  
+> **Last updated: March 2026**
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository tracks notable **SaaS platforms** and **open-source tools** dedicated to **Backup Analytics & Capacity Reporting**. These solutions empower backup administrators, SREs, DevOps engineers, and IT directors to:
+- 📊 Track real-time and historical backup job execution health and error distributions.
+- 💾 Analyze deduplication ratios, data footprint expansion, and disk/cloud storage utilization trends.
+- 🔮 Predict and forecast future storage saturation timelines before running out of quota.
+- 🛡️ Validate strict SLA, RPO, and RTO compliance across hybrid, on-premises, and multi-cloud environments.
+- 📋 Produce audit-ready compliance reports for GDPR, HIPAA, NIS2, and ISO 27001 data resilience mandates.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 🧭 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 Support](#-support)
+- [🚀 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
 
-The backup analytics, storage capacity planning, and data protection reporting market is estimated at approximately **$12B–$15B** globally (growing at an 11–14% CAGR through 2030), driven by exponential data growth, compliance mandates (GDPR/HIPAA/DORA), and cyber-resilience demands. The sector is **moderately fragmented** rather than winner-take-all: while mega-cap hyperscalers (Microsoft, Alphabet) dominate horizontal enterprise BI and observability giants (Datadog, Splunk) capture centralized telemetry, specialized data protection vendors (Veeam, Cohesity, Rubrik, Commvault, Druva) maintain entrenched, indispensable moats around workload-specific metadata, catalog intelligence, and immutable backup compliance reporting.
+---
 
-## SaaS/Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
 
-| Product | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Free Trial Limits | Description |
+The backup analytics, storage capacity planning, and data protection reporting market is estimated at approximately **$12B–$15B** globally (growing at an 11–14% CAGR through 2030), driven by exponential enterprise data growth, mandatory compliance regulations (such as GDPR, HIPAA, and DORA), and urgent ransomware cyber-resilience imperatives. 
+
+The sector is **moderately fragmented** rather than winner-take-all:
+- **Horizontal BI & Cloud Hyperscalers**: Mega-cap giants (Microsoft, Alphabet) dominate macro business intelligence and generalized departmental reporting.
+- **Central Observability Platforms**: Platforms like Datadog and Splunk ingest heterogeneous infrastructure metrics and security log streams at scale.
+- **Specialized Data Resilience Vendors**: Focused vendors (Veeam, Cohesity, Rubrik, Commvault, Druva) command deep, entrenched moats around workload-specific catalogs, backup deduplication engines, immutable snapshot verification, and audit-grade compliance reporting.
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+| Product | 🏢 Company Size (Valuation / Revenue) | 💵 Starting Pricing | 🎁 Free Tier / Free Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | **~$3.1T Market Cap** *(Parent: Microsoft; FY24 Rev: $245B)* | **$14.00/user/month** (Power BI Pro, billed annually) | **Free Forever Tier**: Free for personal use via Power BI Desktop/Fabric Free; sharing/collaboration disabled, 1 GB dataset model size limit, manual refreshes only. | Business analytics platform for creating interactive backup reporting dashboards from Commvault, Veeam, or custom data sources; supports scheduled refresh and row-level security for departmental chargeback views. |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | **~$3.1T Market Cap** *(Parent: Microsoft; FY24 Rev: $245B)* | **$14.00/user/month** (Power BI Pro, billed annually) | **Free Forever Tier**: Free for personal use via Power BI Desktop / Fabric Free; cloud sharing/collaboration disabled, 1 GB dataset model size limit, manual refreshes only. | Business analytics platform for creating interactive backup reporting dashboards from Commvault, Veeam, or custom data sources; supports scheduled refresh and row-level security for departmental chargeback views. |
 | **[Looker](https://looker.com/)** | **~$2.1T Market Cap** *(Parent: Alphabet; FY24 Rev: $350B)* | **$5,000/month** (Looker Standard Platform, annual contract; Looker Studio Pro starts at $9/user/month) | **30-day Free Trial**: Full access to Looker Cloud Core platform (underlying BigQuery/cloud infrastructure usage billed separately; base Looker Studio has a free forever tier). | Google Cloud's enterprise BI platform for modeling backup data and building governed dashboards; suitable for organizations standardizing analytics across IT operations and finance. |
 | **[Tableau Cloud](https://www.tableau.com/)** | **~$280B Market Cap** *(Parent: Salesforce; FY24 Rev: $34.9B)* | **$15.00/user/month** (Tableau Cloud Viewer, billed annually; requires min. 1 Creator at $75/user/month) | **14-day Free Trial**: Full evaluation access to Tableau Cloud and Tableau Desktop at Creator tier with full authoring and data connection capabilities; no credit card required. | Visual analytics platform for building custom backup capacity and compliance dashboards from extracted CSV/API data; commonly paired with backup vendor exports for executive-level reporting. |
 | **[Splunk Dashboards](https://www.splunk.com/)** | **$28B Valuation** *(Acquired by Cisco; Observability Cloud from $15/host/mo)* | **$15.00/host/month** (Splunk Observability Cloud; Splunk Cloud Platform quote-based by workload/SVC or daily ingest) | **14-day Free Trial**: Splunk Cloud Platform trial capped at 5 GB/day data ingestion; no credit card required (Self-hosted Splunk Free tier offers 500 MB/day free forever, single-user, no alerting). | SIEM and analytics platform with Druva App/Add-on integration for ingesting backup events; enables centralized monitoring, correlation of backup telemetry with security events, and custom dashboards for operational and compliance reporting. |
@@ -41,55 +66,107 @@ The backup analytics, storage capacity planning, and data protection reporting m
 | **[Commvault Report Manager (Command Center)](https://documentation.commvault.com/)** | **~$6.8B Market Cap** *(NASDAQ: CVLT; FY25 Rev: $996M)* | **$58.50/TB/month** (Commvault Cloud File & Object storage backup; M365 protection from $1.70–$4.50/user/month) | **30-day Free Trial**: Commvault Cloud free evaluation across hybrid cloud workloads, databases, and SaaS applications; no credit card required. | Centralized reporting suite with predefined reports for backup/restore summaries, SLA compliance, storage utilization, CommCell readiness, and audit trails; supports automated scheduled report delivery and multi-CommCell monitoring. |
 | **[Druva Analytics and Reporting](https://www.druva.com/)** | **~$2B Valuation** *(Last priced Series H; ~$200M+ ARR)* | **$8.00/user/month** (Endpoints/SaaS protection starting tier; hybrid storage backup starts via credit packs based on deduplicated TB volume) | **30-day Free Trial**: Full access to cloud data protection platform, workload configuration, and analytics features; no credit card required. | Cloud platform reports covering backup/restore operations, storage consumption, license usage, alert history, and workload health; supports granular insights, chargeback analysis, and up to two years of historical trend data for compliance audits. |
 
-## Open-Source GitHub Projects
+---
 
-- **[Bacula-Web](https://github.com/bacula-web/bacula-web)**  
-  Open-source reporting and monitoring tool for Bacula backup infrastructure; provides dashboards for job status, volume usage, weekly statistics, pool/volume reports, and multi-director views with read-only access to the Bacula catalog database .
+## 💻 Open-Source GitHub Projects
 
-- **[duplicacy-exporter](https://github.com/geiserx/duplicacy-exporter)**  
-  Prometheus exporter for Duplicacy backups that tracks backup duration, files, bytes uploaded, exit codes, and revision numbers per snapshot; ships with a ready-made Grafana dashboard and alert rules for failed or stale backups .
+Curated list of self-hosted tools, Prometheus exporters, and Grafana reporting dashboards for backup monitoring, capacity trending, and storage analytics—sorted by GitHub stargazer count.
 
-- **[backup-reporter](https://github.com/relaxdiego/backup-reporter)**  
-  Python tool with reporter and collector modes: reporter collects backup metadata and uploads to S3; collector aggregates files into CSV and pushes to Google Sheets for centralized reporting across machines .
+1. **[Backrest](https://github.com/garethgeorge/backrest)** [![Stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers)  
+   Web-based orchestrator and analytics dashboard for Restic backups; features operational tracking, repository storage usage visualization, snapshot timelines, health alerts, and automated prune/check planning.
 
-- **[rdiffweb](https://github.com/ikus060/rdiffweb)**  
-  Web interface for rdiff-backup repositories with dashboard showing backups per day, oldest backup, storage usage, average duration, activity metrics, and quota visualization .
+2. **[Vorta](https://github.com/borgbase/vorta)** [![Stars](https://img.shields.io/github/stars/borgbase/vorta?style=social&color=white)](https://github.com/borgbase/vorta/stargazers)  
+   Desktop GUI client and dashboard for BorgBackup; displays repository storage statistics, compression/deduplication analytics, archive history, and backup execution logs.
 
-- **[rsbackup-graph](https://github.com/richardkettlewell/rsbackup)**  
-  Graph generation tool for rsbackup state, producing visual representations of backup coverage and history across hosts and volumes for capacity and compliance overviews .
+3. **[Borgmatic](https://github.com/borgmatic-collective/borgmatic)** [![Stars](https://img.shields.io/github/stars/borgmatic-collective/borgmatic?style=social&color=white)](https://github.com/borgmatic-collective/borgmatic/stargazers)  
+   Declarative configuration wrapper for Borg with comprehensive health hooks, JSON log reporting, integrated database dump metrics, and third-party monitoring alerts.
 
-- **[resticprofile Grafana Dashboard](https://github.com/creativeprojects/resticprofile)**  
-  Grafana/Loki dashboard that parses restic backup logs to visualize ingest volume, file counts, success/error rates, time spent, and backup-count diffs for alerting on missed runs .
+4. **[Autorestic](https://github.com/cupcakearmy/autorestic)** [![Stars](https://img.shields.io/github/stars/cupcakearmy/autorestic?style=social&color=white)](https://github.com/cupcakearmy/autorestic/stargazers)  
+   High-level CLI wrapper for restic backups providing declarative multi-backend locations, status verification, hook notifications, and snapshot stats tracking.
 
-- **[Rubrik Security Cloud Grafana Plugin](https://grafana.com/grafana/plugins/crestdata-rubriksecuritycloud-datasource/)**  
-  Community Grafana data source plugin for Rubrik Security Cloud providing workload metrics, protection/job health, workload inventory, and SLA compliance dashboards without custom API scripting .
+5. **[resticprofile](https://github.com/creativeprojects/resticprofile)** [![Stars](https://img.shields.io/github/stars/creativeprojects/resticprofile?style=social&color=white)](https://github.com/creativeprojects/resticprofile/stargazers)  
+   Configuration manager for restic with dedicated Grafana/Loki integration; parses log files to report ingest data volume, file counts, success/failure status, and execution duration trends.
 
-### Additional Strong Open-Source Options
+6. **[Bareos](https://github.com/bareos/bareos)** [![Stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers)  
+   Enterprise open-source backup suite featuring Bareos WebUI with operational dashboards, job history reporting, storage daemon capacity stats, and volume pooling analytics.
 
-- **[Prometheus](https://github.com/prometheus/prometheus)** and **[Grafana](https://github.com/grafana/grafana)** as the foundational open-source stack for backup metrics collection and visualization when paired with exporters.
-- **[node_exporter](https://github.com/prometheus/node_exporter)** and **[blackbox_exporter](https://github.com/prometheus/blackbox_exporter)** for host and endpoint-level metrics that complement backup health monitoring.
-- **Custom Python/Go exporters** for Veeam, Commvault, and Cohesity APIs to bridge vendor telemetry into Prometheus.
-- **Loki** and **Promtail** for log-based backup event parsing and alerting when backup jobs fail or produce anomalous output.
-- Many community **Bacula/Zmanda reporting dashboards** and **SQL-based capacity forecasting queries** for custom analytics.
+7. **[BorgWarehouse](https://github.com/Ravinou/borgwarehouse)** [![Stars](https://img.shields.io/github/stars/Ravinou/borgwarehouse?style=social&color=white)](https://github.com/Ravinou/borgwarehouse/stargazers)  
+   Self-hosted web dashboard for central BorgBackup repositories; provides real-time client status monitoring, visual storage quota gauges, retention enforcement, and webhook alert notifications.
 
-**Frameworks for building custom systems**: Combine **Bacula-Web** for Bacula environments, **duplicacy-exporter** for Prometheus-native backup metrics, **Grafana** for unified dashboards, and **backup-reporter** for spreadsheet-based reporting—or build a custom pipeline with **Prometheus + Loki + Grafana** for full observability across heterogeneous backup tools.
+8. **[ngosang/restic-exporter](https://github.com/ngosang/restic-exporter)** [![Stars](https://img.shields.io/github/stars/ngosang/restic-exporter?style=social&color=white)](https://github.com/ngosang/restic-exporter/stargazers)  
+   Prometheus exporter for Restic backup repositories; polls snapshots to export size in bytes, file counts, snapshot freshness, and timestamp metrics for Grafana dashboards.
 
-## How to Contribute
+9. **[Bacula-Web](https://github.com/bacula-web/bacula-web)** [![Stars](https://img.shields.io/github/stars/bacula-web/bacula-web)](https://github.com/bacula-web/bacula-web/stargazers)  
+   Dedicated web-based reporting and monitoring tool for Bacula; visualizes job success rates, storage pool capacity utilization, backup volumes, and multi-director catalog health.
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+10. **[rdiffweb](https://github.com/ikus060/rdiffweb)** [![Stars](https://img.shields.io/github/stars/ikus060/rdiffweb?style=social&color=white)](https://github.com/ikus060/rdiffweb/stargazers)  
+    Web interface and monitoring dashboard for rdiff-backup repositories; tracks backups per day, storage usage trends, average job run durations, and disk quota consumption.
 
-Star the repo if you find it useful!
+11. **[veeam-prometheus-grafana](https://github.com/DoTheEvo/veeam-prometheus-grafana)** [![Stars](https://img.shields.io/github/stars/DoTheEvo/veeam-prometheus-grafana?style=social&color=white)](https://github.com/DoTheEvo/veeam-prometheus-grafana/stargazers)  
+    Open-source monitoring framework for Veeam Backup & Replication Community Edition using PowerShell scripts, Prometheus, and Grafana to track job outcomes, transfer rates, and capacity.
 
-## Disclaimer
+12. **[rsbackup](https://github.com/ewxrjk/rsbackup)** [![Stars](https://img.shields.io/github/stars/ewxrjk/rsbackup?style=social&color=white)](https://github.com/ewxrjk/rsbackup/stargazers)  
+    Rsync-based backup utility featuring `rsbackup-graph` for visual state graph generation, tracking host backup coverage, volume history, and storage capacity health.
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Backup analytics tools must be configured with appropriate data retention and access controls; capacity forecasts are only as reliable as the historical data feeding them.
-- Self-hosted open-source solutions require proper metric cardinality management, dashboard maintenance, and alert tuning to remain useful at scale.
+13. **[borg-exporter](https://github.com/danihodovic/borg-exporter)** [![Stars](https://img.shields.io/github/stars/danihodovic/borg-exporter?style=social&color=white)](https://github.com/danihodovic/borg-exporter/stargazers)  
+    Prometheus exporter for BorgBackup repositories; exposes backup completion states, execution timestamps, and snapshot size metrics with built-in alerting for missed runs.
+
+14. **[borgmatic-exporter](https://github.com/maxim-mityutko/borgmatic-exporter)** [![Stars](https://img.shields.io/github/stars/maxim-mityutko/borgmatic-exporter?style=social&color=white)](https://github.com/maxim-mityutko/borgmatic-exporter/stargazers)  
+    Prometheus exporter designed specifically for Borgmatic setups; extracts archive sizes, compressed vs. deduplicated ratios, run duration, and error codes for Grafana observability.
+
+15. **[veeam_exporter](https://github.com/peekjef72/veeam_exporter)** [![Stars](https://img.shields.io/github/stars/peekjef72/veeam_exporter?style=social&color=white)](https://github.com/peekjef72/veeam_exporter/stargazers)  
+    Prometheus exporter for Veeam Enterprise Manager HTTP API; surfaces job statuses, session stats, and backup repository usage metrics to Prometheus and Grafana.
+
+16. **[duplicacy-exporter](https://github.com/geiserx/duplicacy-exporter)** [![Stars](https://img.shields.io/github/stars/geiserx/duplicacy-exporter?style=social&color=white)](https://github.com/geiserx/duplicacy-exporter/stargazers)  
+    Prometheus exporter for Duplicacy backups; tracks backup duration, snapshot revision counts, files, bytes uploaded, and failure rates with prebuilt Grafana alerts.
 
 ---
 
-**Made for backup administrators, SREs, platform teams, and IT finance analysts.**  
-Let's make backup analytics more open, observable, and actionable.
+### 🛠️ Foundational Observability Stack & Exporter Ecosystem
+
+For organizations building unified, vendor-neutral backup analytics infrastructure:
+- 📊 **[Prometheus](https://github.com/prometheus/prometheus)** & **[Grafana](https://github.com/grafana/grafana)**: The standard cloud-native monitoring engine and visualization platform for backup metrics collection and capacity forecasting.
+- 🪵 **[Grafana Loki](https://github.com/grafana/loki)**: Log aggregation engine for collecting, querying, and alarming on backup daemon stdout/stderr streams.
+- 🔌 **[Rubrik Security Cloud Grafana Plugin](https://grafana.com/grafana/plugins/crestdata-rubriksecuritycloud-datasource/)**: Community data source plugin providing protection status, job health, and SLA compliance dashboards without writing custom API polling code.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Backup-Analytics-Capacity-Reporting&type=date&legend=top-left)
+
+---
+
+## 🤝 Support
+
+Thank you for exploring this curated repository! If you find this collection helpful for planning backup infrastructure or observability stacks, please consider:
+- ⭐ **Starring this repository** on GitHub to increase visibility.
+- 🍴 **Forking it** and sharing with colleagues and fellow DevOps/SRE practitioners.
+- 📢 **Sharing on social media** (LinkedIn, X, Reddit) and community Discords.
+- ☕ **Sponsoring the project** to help support ongoing maintenance and curation:  
+  [![Buy Me A Coffee / Sponsor](https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 🚀 How to Contribute
+
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Add or update entries in `README.md` following the existing format.
+3. Include: project name, official URL, 1–2 sentence description, pricing/stargazer details, and whether it is SaaS or open-source.
+4. Submit a Pull Request with a clear description of your additions.
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent, **community-curated** list — not exhaustive and not an official corporate endorsement.
+- Backup analytics tools must be configured with appropriate data access controls, role-based access (RBAC), and encryption; capacity forecasts are only as accurate as historical retention profiles.
+- Self-hosted open-source telemetry pipelines require proper metric cardinality management, dashboard maintenance, and alert threshold tuning to remain effective at scale.
+
+---
+
+<p align="center">
+  <b>Built for backup administrators, SREs, platform engineers, and IT infrastructure leads.</b><br/>
+  Let's make backup analytics open, observable, and actionable! 🚀
+</p>
