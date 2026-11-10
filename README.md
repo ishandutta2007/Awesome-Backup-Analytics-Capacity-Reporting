@@ -16,42 +16,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The backup analytics, storage capacity planning, and data protection reporting market is estimated at approximately **$12B–$15B** globally (growing at an 11–14% CAGR through 2030), driven by exponential data growth, compliance mandates (GDPR/HIPAA/DORA), and cyber-resilience demands. The sector is **moderately fragmented** rather than winner-take-all: while mega-cap hyperscalers (Microsoft, Alphabet) dominate horizontal enterprise BI and observability giants (Datadog, Splunk) capture centralized telemetry, specialized data protection vendors (Veeam, Cohesity, Rubrik, Commvault, Druva) maintain entrenched, indispensable moats around workload-specific metadata, catalog intelligence, and immutable backup compliance reporting.
+
 ## SaaS/Hosted Platforms
 
-- **[Druva Analytics and Reporting](https://www.druva.com/)**  
-  Cloud platform reports covering backup/restore operations, storage consumption, license usage, alert history, and workload health; supports granular insights, chargeback analysis, and up to two years of historical trend data for compliance audits .
-
-- **[Veeam ONE](https://www.veeam.com/)**  
-  Monitoring and analytics suite for Veeam-protected environments with 340+ prebuilt alarms, 150+ reports, capacity planning for VMware/Hyper-V/backup storage, chargeback billing, and ransomware anomaly alerts across backup infrastructure .
-
-- **[Commvault Report Manager (Command Center)](https://documentation.commvault.com/)**  
-  Centralized reporting suite with predefined reports for backup/restore summaries, SLA compliance, storage utilization, CommCell readiness, and audit trails; supports automated scheduled report delivery and multi-CommCell monitoring .
-
-- **[Cohesity Analytics (IT Analytics)](https://www.cohesity.com/)**  
-  Unified IT analytics platform with dashboards for backup/storage insights, predictive capacity planning, SLA/RTO/RPO compliance tracking, ransomware detection, and chargeback/showback; now available as SaaS with Cohesity Copilot for natural-language report generation .
-
-- **[Rubrik Security Cloud Reports](https://www.rubrik.com/)**  
-  API-driven reporting for workload metrics including storage usage, compliance status, SLA assignment, protection status, and backup activity; integrates with Grafana via community plugins for custom dashboards and capacity forecasting .
-
-- **[Datadog Infrastructure Analytics](https://www.datadoghq.com/)**  
-  General-purpose observability platform with infrastructure monitoring, log management, and custom dashboards; can ingest backup telemetry via integrations for unified monitoring alongside application and cloud infrastructure metrics .
-
-- **[Splunk Dashboards](https://www.splunk.com/)**  
-  SIEM and analytics platform with Druva App/Add-on integration for ingesting backup events; enables centralized monitoring, correlation of backup telemetry with security events, and custom dashboards for operational and compliance reporting .
-
-- **[Tableau Cloud](https://www.tableau.com/)**  
-  Visual analytics platform for building custom backup capacity and compliance dashboards from extracted CSV/API data; commonly paired with backup vendor exports for executive-level reporting.
-
-- **[Microsoft Power BI](https://powerbi.microsoft.com/)**  
-  Business analytics platform for creating interactive backup reporting dashboards from Commvault, Veeam, or custom data sources; supports scheduled refresh and row-level security for departmental chargeback views.
-
-- **[Looker](https://looker.com/)**  
-  Google Cloud's enterprise BI platform for modeling backup data and building governed dashboards; suitable for organizations standardizing analytics across IT operations and finance.
+| Product | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | **~$3.1T Market Cap** *(Parent: Microsoft; FY24 Rev: $245B)* | **$14.00/user/month** (Power BI Pro, billed annually) | **Free Forever Tier**: Free for personal use via Power BI Desktop/Fabric Free; sharing/collaboration disabled, 1 GB dataset model size limit, manual refreshes only. | Business analytics platform for creating interactive backup reporting dashboards from Commvault, Veeam, or custom data sources; supports scheduled refresh and row-level security for departmental chargeback views. |
+| **[Looker](https://looker.com/)** | **~$2.1T Market Cap** *(Parent: Alphabet; FY24 Rev: $350B)* | **$5,000/month** (Looker Standard Platform, annual contract; Looker Studio Pro starts at $9/user/month) | **30-day Free Trial**: Full access to Looker Cloud Core platform (underlying BigQuery/cloud infrastructure usage billed separately; base Looker Studio has a free forever tier). | Google Cloud's enterprise BI platform for modeling backup data and building governed dashboards; suitable for organizations standardizing analytics across IT operations and finance. |
+| **[Tableau Cloud](https://www.tableau.com/)** | **~$280B Market Cap** *(Parent: Salesforce; FY24 Rev: $34.9B)* | **$15.00/user/month** (Tableau Cloud Viewer, billed annually; requires min. 1 Creator at $75/user/month) | **14-day Free Trial**: Full evaluation access to Tableau Cloud and Tableau Desktop at Creator tier with full authoring and data connection capabilities; no credit card required. | Visual analytics platform for building custom backup capacity and compliance dashboards from extracted CSV/API data; commonly paired with backup vendor exports for executive-level reporting. |
+| **[Splunk Dashboards](https://www.splunk.com/)** | **$28B Valuation** *(Acquired by Cisco; Observability Cloud from $15/host/mo)* | **$15.00/host/month** (Splunk Observability Cloud; Splunk Cloud Platform quote-based by workload/SVC or daily ingest) | **14-day Free Trial**: Splunk Cloud Platform trial capped at 5 GB/day data ingestion; no credit card required (Self-hosted Splunk Free tier offers 500 MB/day free forever, single-user, no alerting). | SIEM and analytics platform with Druva App/Add-on integration for ingesting backup events; enables centralized monitoring, correlation of backup telemetry with security events, and custom dashboards for operational and compliance reporting. |
+| **[Datadog Infrastructure Analytics](https://www.datadoghq.com/)** | **~$40B Market Cap** *(FY24 Rev: $2.68B)* | **$15.00/host/month** (Infrastructure Pro, billed annually or $18 on-demand) | **Free Forever Tier**: Free for up to 5 hosts with 1-day metric retention (14-day full Pro free trial also available with unlimited hosts). | General-purpose observability platform with infrastructure monitoring, log management, and custom dashboards; can ingest backup telemetry via integrations for unified monitoring alongside application and cloud infrastructure metrics. |
+| **[Rubrik Security Cloud Reports](https://www.rubrik.com/)** | **~$21B Market Cap** *(NYSE: RBRK; FY25 Rev: ~$900M+)* | **$130.00/TB/month** (~$1,560/TB/year for infrastructure BETB; SaaS M365 edition starts at $3.80–$6.00/user/month) | **30-day Free Trial / PoC**: Guided proof of concept; SaaS trials typically capped at 500 users and up to 10 TB data protection capacity; requires sales coordination. | API-driven reporting for workload metrics including storage usage, compliance status, SLA assignment, protection status, and backup activity; integrates with Grafana via community plugins for custom dashboards and capacity forecasting. |
+| **[Veeam ONE](https://www.veeam.com/)** | **$15B Valuation** *(2024 secondary; $1.7B+ ARR)* | **$12.90/workload/month** (packaged at ~$155–$230/workload/year under Veeam Universal Licensing / Data Platform) | **Free Forever Tier (Community Edition)**: Free forever for up to 10 workloads/instances (7-day monitoring history, 24-hr report retention); 30-day full-feature trial for unrestricted workloads. | Monitoring and analytics suite for Veeam-protected environments with 340+ prebuilt alarms, 150+ reports, capacity planning for VMware/Hyper-V/backup storage, chargeback billing, and ransomware anomaly alerts across backup infrastructure. |
+| **[Cohesity Analytics (IT Analytics)](https://www.cohesity.com/)** | **~$7B+ Valuation** *(Merged with Veritas Enterprise; FY24 Pro Forma Rev: $1.7B)* | **$242.50/TB/month** ($29,100/year for 10 Back-End TB minimum entry block on AWS Marketplace; quote-based multi-year terms) | **30-day Free Trial**: Full access to Cohesity DataProtect as a Service / Cloud Services; requires partner/marketplace registration or PoC request. | Unified IT analytics platform with dashboards for backup/storage insights, predictive capacity planning, SLA/RTO/RPO compliance tracking, ransomware detection, and chargeback/showback; now available as SaaS with Cohesity Copilot for natural-language report generation. |
+| **[Commvault Report Manager (Command Center)](https://documentation.commvault.com/)** | **~$6.8B Market Cap** *(NASDAQ: CVLT; FY25 Rev: $996M)* | **$58.50/TB/month** (Commvault Cloud File & Object storage backup; M365 protection from $1.70–$4.50/user/month) | **30-day Free Trial**: Commvault Cloud free evaluation across hybrid cloud workloads, databases, and SaaS applications; no credit card required. | Centralized reporting suite with predefined reports for backup/restore summaries, SLA compliance, storage utilization, CommCell readiness, and audit trails; supports automated scheduled report delivery and multi-CommCell monitoring. |
+| **[Druva Analytics and Reporting](https://www.druva.com/)** | **~$2B Valuation** *(Last priced Series H; ~$200M+ ARR)* | **$8.00/user/month** (Endpoints/SaaS protection starting tier; hybrid storage backup starts via credit packs based on deduplicated TB volume) | **30-day Free Trial**: Full access to cloud data protection platform, workload configuration, and analytics features; no credit card required. | Cloud platform reports covering backup/restore operations, storage consumption, license usage, alert history, and workload health; supports granular insights, chargeback analysis, and up to two years of historical trend data for compliance audits. |
 
 ## Open-Source GitHub Projects
 
